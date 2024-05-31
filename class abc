@@ -1,0 +1,29 @@
+//class decalration 
+public class abc{
+string name;
+string Id no;
+int age;
+string hobby;
+public abc(string name,string Id no,int age,string hobby)
+{
+this.name=name;
+this.Id no=Id no;
+this.age=age;
+this.hobby=hobby;
+}
+public string getName(){return name;}
+public string getId no(){return Id no;}
+public string getAge(){return age;}
+public string getHobby(){return hobby;}
+public string tostring()
+{
+return("Hi my anme is "+this.getName{}
++".\nMy Id no.age and hobby are"+this.getId no()+"."+this.getAge()+"."+this.getHobby()};
+}
+public static void main(String[] args)
+{
+ abc John 
+     =new abc("John", "sty",22,"singing");
+system.out.println(John,toString()};
+}
+}
